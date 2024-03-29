@@ -1,14 +1,5 @@
 <?php
 
-// ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>5],
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>6],
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>7],
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>8],    
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>8],    
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>8],    
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>8],    
-//     ['No'=>'', 'Nama' => '', 'Nim'=>'', 'Nilai'=>8], 
-
 $data = [
     ["Nama" => "Nashir Fuad", "NIM" => "0001", "Nilai" => 90],
     ["Nama" => "Ahmad Jazim", "NIM" => "0002", "Nilai" => 95],
@@ -24,7 +15,6 @@ $data = [
     ["Nama" => "Raffi Ardhani", "NIM" => "0012", "Nilai" => 90]
 ];
 
-// $data =[$a1,$a2,$a3,$a4,$a5];
 
 // deklarasi nama judul pada tabel header
 $header = ['No', 'Nama Mahasiswa', 'NIM', 'Nilai', 'Keterangan', 'Grade', 'Predikat'];
