@@ -36,9 +36,9 @@ class Siswa
     {
         if ($this->nilai >= 85) {
             $this->grade = 'A';
-        } elseif ($this->nilai >= 70) {
+        } elseif ($this->nilai >= 75) {
             $this->grade = 'B';
-        } elseif ($this->nilai >= 55) {
+        } elseif ($this->nilai >= 60) {
             $this->grade = 'C';
         } elseif ($this->nilai >= 40) {
             $this->grade = 'D';
